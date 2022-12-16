@@ -1,0 +1,26 @@
+id: text1
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: left
+    - hidden: false
+    - imageWidth: fit
+    - showInEditor: false
+    - verticalAlign: center
+    - tooltipText: ''
+    - value: <h1>Code Move Report</h1>
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    subcontainer: header
+    row: 0.4
+    col: 3
+    height: 0.6
+    width: 5
+createdAt: 2022-11-10T19:52:42.751Z
