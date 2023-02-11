@@ -1,0 +1,47 @@
+id: form1
+type: widget
+subtype: FormWidget2
+template:
+  ordered:
+    - disableSubmit: false
+    - heightType: auto
+    - resetAfterSubmit: true
+    - submitting: false
+    - hidden: false
+    - data:
+        object: {}
+    - showHeader: true
+    - hoistFetching: true
+    - initialData: null
+    - showInEditor: false
+    - tooltipText: ''
+    - invalid: false
+    - showFooter: true
+    - events:
+        - ordered:
+            - event: submit
+            - type: datasource
+            - method: trigger
+            - pluginId: SaveTicketAssociation
+            - targetId: null
+            - params:
+                ordered: []
+            - waitType: debounce
+            - waitMs: '0'
+    - loading: false
+    - overflowType: scroll
+    - disabled: false
+    - requireValidation: true
+    - maintainSpaceWhenHidden: false
+    - showBody: true
+style:
+  ordered: []
+position2:
+  position2:
+    container: container1
+    subcontainer: 44dd5
+    row: 0.20000000000000195
+    col: 6
+    height: 0.2
+    width: 6
+createdAt: 2023-01-23T22:45:20.718Z
