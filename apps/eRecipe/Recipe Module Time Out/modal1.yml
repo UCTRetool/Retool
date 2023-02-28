@@ -1,0 +1,25 @@
+id: modal1
+type: widget
+subtype: ModalWidget
+template:
+  ordered:
+    - opened: false
+    - modalOverflowType: scroll
+    - onModalClose: ''
+    - modalHeightType: fixed
+    - tooltipText: ''
+    - modalHeight: ''
+    - onModalOpen: ''
+    - modalWidth: ''
+    - closeOnOutsideClick: false
+    - loading: ''
+    - disabled: ''
+    - buttonText: Create New Entry
+style:
+  ordered: []
+position2:
+  position2:
+    col: 8
+    height: 1
+    width: 4
+createdAt: 2023-02-28T16:47:48.396Z
